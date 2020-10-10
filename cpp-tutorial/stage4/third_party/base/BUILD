@@ -4,6 +4,6 @@ cc_library(
     name = "hello-time",
     srcs = ["hello-time.cc"],
     hdrs = ["hello-time.h"],
-    copts = ["-Ithird_party/base/include"],
+    copts = ["-Ithird_party/base"],
     visibility = ["//main:__pkg__"],
 )
